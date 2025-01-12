@@ -1,0 +1,17 @@
+/*body{
+    height: 100vh;
+    margin: 0;
+    background:linear-gradient(to bottom, white 40%, grey 60% )
+}
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f0f2f5 68%, #fff 32%);
+}
+
+.facebook {
+    color: rgb(37, 104, 247);
+}
