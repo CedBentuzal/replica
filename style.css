@@ -9,9 +9,53 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: linear-gradient(to bottom, #f0f2f5 68%, #fff 32%);
+    background: linear-gradient(to bottom, #f0f2f5 70%, #fff 30%);
 }
 
 .facebook {
+    display: grid;
+    place-items: center;
+    height: 50vh;
+    position: relative; 
+}
+
+.childfb {
+    transform: translateX(-30vh) translateY(10vh);
+}
+
+.childfb > p {
+    margin-top: -25px;
+    font-size: 3.5vh;
+}
+
+.fb {
     color: rgb(37, 104, 247);
+    margin-bottom: -25px;
+    font-size: 6vh;
+}
+
+.border {
+    display: grid;
+    place-items: center;
+    height: 35vh;
+    width: 40vh;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(0%, -80%); 
+}
+
+.log {
+    transform: translateY(-10vh);
+}
+
+.user {
+    margin-bottom: 20px;
+}
+
+.password {
+    margin-bottom: 20px;
 }
